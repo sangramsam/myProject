@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="contextevent"
+  id="myeclipse.1343193838609"
+  context-root="/contextevent"
+  j2ee-spec="5.0"
+  archive="contextevent.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

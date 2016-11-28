@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+body
+{
+    background-color: azure;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#reg
+{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 500px;
+    border: lawngreen
+
+
+
+}
+.btn
+{
+    position: relative;
+    background-color: lawngreen;
+    border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+    left: 550px;
+    top: 200px;
+}

@@ -1,0 +1,142 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import="java.util.*" import ="com.lms.std"%>
+      <%@ page import="com.lms.notice" %>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap-3.3.2-dist/js/jquery.js"></script>
+    <script src="bootstrap-3.3.2-dist/js/jquery.validate.min.js"></script>
+    <script src="bootstrap-3.3.2-dist/js/validatefac.js" ></script>
+    <script src="bootstrap-3.3.2-dist/js/select.js"></script>
+       <script src="bootstrap-3.3.2-dist/js/addnotice.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="img/picto_navigation.png" />
+</head><body>
+<%
+if(null==session.getAttribute("user"))
+{
+	response.sendRedirect("login.jsp");
+	return;
+}
+else
+{
+String  username=null;
+username=(String)session.getAttribute("user");
+List<std> jobList = null;
+jobList = (List<std>)session.getAttribute("data");
+List<notice> ntlist = null;
+ntlist=(List<notice>)session.getAttribute("nt");%>
+<div class="row">
+    </div>
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#" STYLE="color: snow">ITMU Moodle</a>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+        <li class="active"><p><b><span class="glyphicon glyphicon-user"></span><%= username.toUpperCase() %></b>&nbsp;&nbsp;<a  href="/newmoodle/logout" class="btn-sm btn-default">Logout</a></p> </li>
+    </ul>
+</nav>
+<div class="container">
+<div class="col-md-6">
+<button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target=".upload"><span class="glyphicon glyphicon-open"></span>&nbsp;&nbsp;Upload Study Material</button><br/>
+<br><br><br>
+<button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target=".notice"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;Add Notice</button>
+<div class="modal fade notice" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+            <div class="login-form">
+                <form class="form-group" method="post" action="/newmoodle/Addnotice" id="add">
+
+                    <textarea class="form-control" name="notice" cols="50" rows="5" placeholder="Type your notice here" id="notice"></textarea>
+
+                    <label for="username"></label>
+
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <input type="date" class="form-control dateclass placeholderclass" placeholder="Date" id="date" name="date" onclick="$(this).removeClass('placeholderclass')">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-lg " type="submit">Add</button>
+                    <div id=mesg></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade upload" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="panel panel-default" style= "max-height:590px;max-width:4900px; position:relative ;">
+        <div class="panel panel-heading" style="background-color:#16A085"><h4 style="text-align: center;color: snow">Upload</h4></div>
+        <div class="panel-body">
+            <form enctype="multipart/form-data" action="addfile" method="post" id="faculty">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                    <label for=”course” style="color: #000000;">Course</label>
+                        <select  id="course" class="form-control" name="course">
+                            <option selected value="">Select your Course</option>
+                            <option>mca</option>
+                            <option>bca</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for=”sem” style="color: #000000;">Sem</label>
+                        <select  id="sem" class=" form-control" name="sem">
+                            <option selected value="">Select your semester</option>
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5</option>
+                             <option value="6">6</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for=”subject” style="color: #000000;">Subject</label>
+                        <select id="subject" name="subject" class=" form-control ">
+                            <option selected value="">Select your subject</option>
+                        </select>
+                    </div>
+                    <label for=”upload” style="color: #000000;">Upload</label>
+                    <div class="form-group">
+                        <input type="file" class="form-control" placeholder="upload ur file" name="upload" id="upload">
+                    </div>
+        <div class="form-group">
+            <input type="submit" value="Upload" class=" btn btn-danger">
+        </div>
+</div>
+            </form>
+</div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+    <div class="col-md-6">
+        <div class="panel panel-default" style= "height:250px;max-width: 500px;">
+            <div class="panel-heading" style=" background-color:#16A085;color:whitesmoke"><b>Notice & Announcement</b></div>
+            <div class="pannel-body" style="color:black">
+             <marquee direction="left">
+             <% for(notice n:ntlist)
+            	 {
+            	 %>
+             <p><b> <%=n.getContent() %></b></p>
+             <%} %>
+             </marquee>
+        </div>
+        </div>
+        <div class="panel panel-default" style= "height:250px;max-width: 500px;">
+            <div class="panel-heading" style=" background-color:#16A085;color:whitesmoke"><b>Notice & Announcement</b></div>
+            <div class="pannel-body" style="color:black">
+        
+    </div>
+<%} %>
+</div>
+    <script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

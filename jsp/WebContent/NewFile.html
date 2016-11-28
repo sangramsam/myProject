@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<datalist id="snh">
+    <option value="sneha">
+    <option value="sangram">
+    <option value="vikash">
+    <option value="shivangi">
+
+</datalist>
+<form method="get" action="snh.html">
+    <table border="0">
+    <tr>
+        <td><label for="name">name</label></td>
+<td><input type="text" name="name" id="name" placeholder="e.g Joe Balochio " autofocus autocomplete="off" list="snh" required title="enter plz"></td>
+</tr>
+        <tr>
+            <td><label for="phone">phone</label></td>
+            <td><input type="tel" name="phone" id="phone" placeholder="e.g.000-0000" required pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}">
+        </tr>
+        <tr>
+            <td><label for="emai">email</label></td>
+            <td><input type="email" name="email" id="email" placeholder="e.g.Joe@example.com">
+        </tr>
+        <tr>
+            <td><label for="bookingtime">bookingtime</label></td>
+            <td><input type="date" name="bookingtime" id="bookingtime">
+        </tr>
+        <tr>
+            <td><label for="num">numberofguest</label></td>
+            <td><input type="number" name="guests" id="guests" value="2">
+        </tr>
+        <tr>
+            <td><label for="range">range</label></td>
+            <td><input type="range" name="range" min="0" step="1" max="10">
+        </tr>
+        <tr>
+            <td><label for="color">color</label></td>
+            <td><input type="color" name="favcolor" id="favcolor" >
+        </tr>
+        <tr>
+            <td><label for="time">time</label></td>
+            <td><input type="time" name="time" id="time" >
+        </tr>
+
+    </table>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

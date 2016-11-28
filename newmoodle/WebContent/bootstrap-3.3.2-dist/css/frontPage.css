@@ -1,0 +1,287 @@
+body
+{
+
+    background-attachment: fixed;
+    font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+    font-size: 15px;
+}
+
+.navbar-default{
+    color:ghostwhite!important;
+
+}
+.navbar>li>a {
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.navbar-inner {
+    background-color:#39424e!important;
+    background:none;
+    background-image: none;
+    filter: none;
+    padding-top: 60px;
+
+}
+.btn-success
+{
+    background-color: #2ec866 !important;
+}
+.signup-btn {
+    margin: 15px 0;
+    width: 100%;
+}
+.tab-content
+{}
+.login-btn
+{
+    margin-left: 200px;
+    width: 20%;
+}
+#std,#ad,#fac
+{
+    color:#16A085;
+}
+.error
+{
+    color: red;
+}
+.nav >li >a
+{
+    color:#ffffff;
+    text-shadow: #ffffff;
+}
+.nav>li:hover
+{
+    background-color: transparent!important;
+
+}
+.wt
+{
+    color:#ffffff!important;
+}
+.w
+{
+    color:#ffffff !important;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.navbar
+{
+    float: none;
+    padding: 10px 10px 2px;
+    color: #ffffff!important;
+    text-decoration: none;
+    text-shadow: 0 1px 0 ;
+    min-height: 53px;
+    margin-bottom: 30px;
+}
+.jumbotron
+{
+    color: #000000;
+
+}
+.jum
+{
+    color:#000000;
+    background-color:#2ec866!important;
+}
+.site-footer
+{
+
+    background-color:#39424e!important;
+}
+.bottom-footer
+{
+    border-top: 1px solid #b2b2b2;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #b2b2b2;
+}
+.footer-nav
+{
+    text-align: right;
+    list-style: none;
+}
+.footer-nav li
+{
+    display: inline;
+
+}
+.footer-nav li:not(:first-child):before
+{
+    content: '|';
+    padding: 0px 10px;
+}
+.footer-nav a
+{
+    color: #fff;
+}
+.footer-nav a:hover
+{
+    color: #66afe9;
+}
+.footer-nav a
+{
+    text-decoration: none;
+}
+.pd
+{
+    padding-top: 20px;
+}
+/*login page*/
+.tp
+{
+   margin-top: 100px;
+}
+.bd
+{
+    border-left:  1px solid #b2b2b2;
+}
+.pdd
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#flat
+{
+    min-height: 473px;
+    width: 865px;
+    padding: 123px 199px 33px 306px;
+    background-color: #1abc9c;
+}
+*
+{
+    box-sizing: border-box;
+}
+div
+{
+    display: block;
+}
+.login
+{
+    left: 100px;
+    position: relative;
+    padding: 38px 38px 267px;
+    margin-bottom: 77px;
+    color: #fff;
+    background: url("img/imac.png") 0 0 no-repeat;
+    background-size: 940px 778px;
+}
+.login-form
+{
+    position: relative;
+    padding: 24px 23px 20px;
+    background-color:  white;
+    border-radius: 6px;
+}
+.login-icon
+{
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    width: 96px;
+}
+.login-icon > img {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+.login-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #bfc9ca;
+    text-align: center;
+}
+.btn-primary
+{
+    background-color: #1abc9c;
+}
+.ta
+{
+    position: relative;
+    top:200px;
+    left: 150px;
+}
+.error
+{
+    font-size: x-small;
+}
+    .dateclass{
+        width:100%;
+    }
+
+.dateclass.placeholderclass::before{
+    width:100%;
+    content:attr(placeholder);
+    background-color:#FFFFFF;
+}
+
+.dateclass.placeholderclass:hover::before{
+    width:0%;
+    content:"";
+}
+.btn-primary
+{
+    background-color:#39424e!important ;
+}
+.div_thumb_img {
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, .2);
+    font-size: 60px;
+    text-align: center;
+    height: 140px;
+    width: 140px;
+    padding: 15px 0px 15px 4px;
+    margin: 0px auto 20px auto;
+    border: 10px solid #eee;
+    box-shadow: 1px 1px rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+#back2
+{
+    background-image: url("img/back2.jpg")!important;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+    z-index: 2;
+}
+#back
+{
+    background-image: url("img/new_background.jpg");
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+}
+#back3
+{
+    background-color:#1abc9c ;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+    z-index: 3;
+
+}
+.striped h2 {
+    padding: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color:white;
+    background-color:#39424e;
+    font-size: 20px;
+}
+.div_thumbnails h2 {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0,0,0,.2);
+    font-size: 14px;
+    margin: 0;
+    line-height: 26px;
+    text-align: center;
+}
