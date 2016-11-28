@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<form class="form-group" method="post" >
+    <h3 class="text-center">Money Transfer</h3>
+
+
+        <table class="table table-responsive table-condensed">
+
+            <tr class="alert-info">
+                <td class="text-center">Account No</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control" placeholder="Origin Account No" name="originNo" required>
+                    <button type="button" class="btn-danger" name="check" id="check">Check</button></div>
+                </td>
+
+            </tr>
+            <tr class="alert-success">
+                <td class="text-center">Account Holder Name</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control"  readonly  ame="Name"></div> </td>
+            </tr>
+            <tr class="alert-danger">
+                <td class="text-center">Bank</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control" name="bank" readonly required></div> </td>
+            </tr>
+            <tr class="alert-danger">
+                <td class="text-center">Branch</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control"  readonly name="Branch" required></div> </td>
+            </tr>
+            <tr class="alert-warning">
+                <td class="text-center">Transfer Amount</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control" placeholder="Transfer Amount" required name="amount"></div> </td>
+            </tr>
+            <tr >
+                <td><div class="col-xs-6 pull-right"><input type="submit" class="form-control btn-success" name="Register" value="Transfer"></div> </td>
+                <td><div class="col-xs-6"><input type="reset" value="Reset" class="form-control btn-danger" ></div></td>
+            </tr>
+
+        </table>
+
+</form>
+    </div>
+<script src="bootstrap-3.3.6-dist/js/jquery-2.2.1.min.js"></script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

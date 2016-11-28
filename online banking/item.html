@@ -1,0 +1,223 @@
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<Head><FONT  face="comic sans ms" size=3 COLOR=#006600><center><hr color=#99CC00>Client Services<hr color=#99CC00></CENTER></font></head>
+<BODY BGCOLOR>
+
+<form method="post" >
+    <%! String user;%>
+    <%
+
+    user=request.getParameter("usr");
+    System.out.println("cservice"+user);
+    %>
+    <!DOCTYPE html>
+
+
+
+    <HTML><HEAD><title>eshopping</title> \
+        <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    </HEAD>
+
+
+
+    <TD bgColor="lightblue height=1><IMG border=0 height=1
+      src="images/tdot.gif"
+    width=1></TD></TR></TBODY></TABLE>
+    <TABLE bgcolor="lightblue" width="100%" height="16" class="table table-responsive table-bordered">
+        <TR>
+            <TD align="center" ><A HREF="AdminLogin.html" target="f3"><font color=#006600 size=2><b>Personnel</b></A></TD>
+            <TD align="center"><A HREF="Client.html"><font color=#006600 size=2><b>Client</b></A></TD>
+            <TD align="center"><A HREF="suggestions.html"><font color=#006600 size=2><b>Feedback</b></A></TD>
+            <TD align="center"><A HREF="righ1.html"><font color=#006600 size=2><b>Products</b></A></TD>
+
+            <TD align="center"><A HREF="help.html"><font color=#006600 size=2><b>Help</b></A></TD>
+        </TR>
+    </TABLE>
+    <TABLE width="100%" bgcolor="#008000">
+        <TR>
+            <TD></TD>
+        </TR>
+    </TABLE>
+
+    <TABLE align=center bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0
+           width=750>
+        <TBODY>
+
+        <TR>
+
+
+            <TD><IMG height=1
+                     src="images/tdot.gif"
+                     width=0></TD>
+            <TD align=middle vAlign=top width="100%">
+                <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+                    <TBODY>
+                    <TR>
+                        <TD colSpan=2><BR>&nbsp; <B><FONT color=#006600 face=arial size=4
+                                                          style="FONT-SIZE: 20px; FONT-WEIGHT: bold">eShopping Online
+                            Store</FONT></B><BR><FONT color=#000080 face=arial,helvetica size=2><!-- Category Navigation -->&nbsp; <IMG height=16
+                                                                                                                                        src="images/rarrow-y.gif"
+                                                                                                                                        width=12> <FONT color=#cc0000 face=arial,helvetica size=2><B>Online
+                            Store Category</B></FONT> </FONT></TD></TR>
+                    <TR>
+                        <TD colSpan=2>&nbsp;<BR><BR></TD></TR>
+                    <TR>
+                        <TD colSpan=2>
+                            <TABLE align=center bgColor=#ffffff border=1 borderColor= #C8ED8F
+                                   cellPadding=3 cellSpacing=0 width=750>
+                                <TBODY>
+                                <TR>
+                                    <TD bgColor=#D9F2B3 colSpan=6>&nbsp;<B>Shopping Catalog</B></TD></TR>
+                                <TR>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/16.jpg"
+                                                width=48><BR><B><font color= #006600>Camera M1</B><BR><font color= #006600>Cost :2000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a> </TD>
+
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/16.jpg"
+                                                width=48><BR><B><font color= #006600>Camera M1</B><BR><font color= #006600>Cost :2000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/17.jpg"
+                                                width=43><BR><B><font color= #006600>Camera M2</B><BR><font color= #006600>Cost :5000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/18.jpg"
+                                                width=55><BR><B><font color= #006600>Camera M3</B><BR><font color= #006600>Cost :6000</B> <BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/20.jpg"
+                                                width=40><BR><B><font color= #006600>Camera M4</B><BR><font color= #006600>Cost :8000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD></TR>
+                                <TR>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/103.jpg"
+                                                width=60><BR><B><font color= #006600>HONDA CITY</B><BR><font color= #006600>Cost :2000</B> <BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/106.jpg"
+                                                width=60><BR><B><font color= #006600>MARUTHI 1000</B><BR><font color= #006600>Cost :2000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/111.jpg"
+                                                width=60><BR><B><font color= #006600>MARUTHI 800</B><BR><font color= #006600>Cost :5000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/113.jpg"
+                                                width=60><BR><B><font color= #006600>SANTRO M1</B><BR><font color= #006600>Cost :6000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/146.jpg"
+                                                width=60><BR><B><font color= #006600>MARUTHI ZEN</B><BR><font color= #006600>Cost :8000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD></TR>
+                                <TR>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/221.jpg"
+                                                width=80><BR><B><font color= #006600>HEROHONDA</B><BR><font color= #006600>Cost :35000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/222.jpg"
+                                                width=80><BR><B><font color= #006600>TVS STAR</B><BR><font color= #006600>Cost :40000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/225.jpg"
+                                                width=80><BR><B><font color= #006600>YAMAHA RX-Z</B><BR><font color= #006600>Cost :45000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/226.jpg"
+                                                width=80><BR><B><font color= #006600>HEROHONDA PASSION</B><BR><font color= #006600>Cost :60000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/227.jpg"
+                                                width=80><BR><B><font color= #006600>HONDA</B><BR><font color= #006600>Cost :48000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD></TR>
+                                <TR>
+                                <TR>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/531.jpg"
+                                                width=80><BR><B><font color= #006600>HEROHONDA</B><BR><font color= #006600>Cost :35000</B>
+
+                                        <BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/526.jpg"
+                                                width=80><BR><B><font color= #006600>TVS STAR</B><BR><font color= #006600>Cost :40000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/535.jpg"
+                                                width=80><BR><B><font color= #006600>YAMAHA RX-Z</B><BR><font color= #006600>Cost :45000</B><BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD>
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/538.jpg"
+                                                width=80><BR><B><font color= #006600>HEROHONDA PASSION</B><BR><font color= #006600>Cost :60000</B> </TD>
+
+                                    <TD align=middle width="20%">
+                                        <IMG
+                                                align=absMiddle border=0 height=60
+                                                src="images/544.jpg"
+                                                width=80><BR><B><font color= #006600>HONDA</B><BR><font color= #006600>Cost :48000</B>
+                                        <BR><a href="sold.jsp?usr=<%= user %>"><FONT  face="comic sans ms" size=2 COLOR=#006600><LI>BUY IT</font></a>  </TD></TR>
+                                <TR>
+                                <TR>
+                                </TR></TBODY>
+                                </TR>
+
+
+                            </TABLE></TD>
+                    </TR>
+                    </TBODY>
+
+
+
+
+                    <CENTER><IMG align=center border=0 height=60
+                                 src="images/HomeButton468_60.gif"
+                                 width=468></CENTER><BR><BR></TD></TR></TBODY></TABLE>
+                <TABLE align=center bgColor=#ffffff border=0 cellPadding=4 cellSpacing=0
+                       width="100%">
+                    <TBODY>
+                    <TR>
+                        <TD>
+
+                        </TD></TR>
+                    <TR>
+                        <TD class=smblur>Copyright ©  eshopping.com, EshoppingMedia.
+                            All rights reserved.<BR><!--  href=""><font face="verdana" size="1" color="#666666">Terms of use</font> &nbsp;.&nbsp;
+	  href=""><font face="verdana" size="1" color="#666666">Privacy statement</font> --></TD></TR></TBODY></TABLE>
+                <script src="bootstrap-3.3.6-dist/js/jquery-2.2.1.min.js"></script>
+                <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</BODY>
+</HTML>

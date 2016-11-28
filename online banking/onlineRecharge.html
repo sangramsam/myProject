@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Onlin Recharge</title>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+</head>
+<style>
+    body{
+        background-color:whitesmoke;
+    }
+</style>
+<body>
+<div class="container" style="max-width: 700px;height: 500px">
+    <form class="form-group" method="post" >
+        <h3 class="text-center">Online Mobile Recharge</h3>
+
+
+        <table class="table table-responsive table-condensed">
+
+            <tr class="alert-success">
+                <td class="text-center">Enter the Mobile No:</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control" placeholder="Enter the Mobile No" name="originNo" required maxlength="10">
+                </td>
+
+            </tr>
+            <tr class="alert-info">
+                <td class="text-center">Re-Enter the Mobile No:</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control"  placeholder="Re-Enter the Mobile No"  name="Name" maxlength="10"></div> </td>
+            </tr>
+            <tr class="alert-info">
+                <td class="text-center">Select Operator:</td>
+                <td>
+                    <div class="col-xs-6">
+                        <select name="operator" id="operatormobile" class="form-control" tabindex="2" c>
+                            <option value="" selected="">Select  Operator</option>
+                            <option value="1">Airtel</option>
+                            <option value="6">Aircel</option>
+                            <option value="3">BSNL</option>
+                            <option value="8">Idea</option>
+                            <option value="7">MTNL</option>
+                            <option value="4">Reliance CDMA</option>
+                            <option value="5">Reliance GSM</option>
+                            <option value="11">Tata Docomo</option>
+                            <option value="9">Tata Indicom</option>
+                            <option value="2">Vodafone</option>
+                        </select>
+                </div>
+                </td>
+            </tr>
+            <tr class="alert-info">
+                <td class="text-center">Select  Circle:</td>
+                <td><div class="col-xs-6">
+                    <select name="circle" id="crl" class="form-control" >
+                        <option value="" selected="">Select Your Circle</option>
+                        <option value="1">Andhra Pradesh</option>
+                        <option value="2">Assam</option>
+                        <option value="3">Bihar &amp; Jharkhand</option>
+                        <option value="4">Chennai</option>
+                        <option value="5">Delhi &amp; NCR</option>
+                        <option value="6">Gujarat</option>
+                        <option value="7">Haryana</option>
+                        <option value="8">Himachal Pradesh</option>
+                        <option value="9">Jammu &amp; Kashmir</option>
+                        <option value="10">Karnataka</option>
+                        <option value="11">Kerala</option>
+                        <option value="12">Kolkata</option>
+                        <option value="13">Maharashtra &amp; Goa (except Mumbai)</option>
+                        <option value="14">MP &amp; Chattisgarh</option>
+                        <option value="15">Mumbai</option>
+                        <option value="16">North East(Arunachal Pradesh)</option>
+                        <option value="17">Orissa</option>
+                        <option value="18">Punjab</option>
+                        <option value="19">Rajasthan</option>
+                        <option value="20">Tamilnadu</option>
+                        <option value="21">UP(EAST)</option>
+                        <option value="22">UP(WEST) &amp; Uttarakhand</option>
+                        <option value="23">West Bengal</option>
+                    </select>
+                </div>
+                </td>
+            </tr>
+            <tr class="alert-info">
+                <td class="text-center">Recharge Amount</td>
+                <td><div class="col-xs-6">
+                    <input type="text" class="form-control" placeholder="Recharge Amount" required name="amount"></div> </td>
+            </tr>
+            <tr >
+                <td><div class="col-xs-7 pull-right"><input type="submit" class="form-control btn-success" name="Register" value="Recharge"></div> </td>
+                <td><div class="col-xs-5"><input type="reset" value="Reset" class="form-control btn-danger" ></div></td>
+            </tr>
+
+        </table>
+
+    </form>
+</div>
+
+<script src="bootstrap-3.3.6-dist/js/jquery-2.2.1.min.js"></script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image: url('img/body_bg.jpg');
+}
+.navbar-default{
+    background-color: rgb(107, 21, 21);
+    border-color: #2B1111;
+}
+nav>li>a {
+    color:whitesmoke !important;
+}
+.div_thumb_img {
+    color: maroon;
+    text-shadow: 1px 1px rgba(0, 0, 0, .2);
+    font-size: 60px;
+    text-align: center;
+    height: 150px;
+    width: 240px;
+    padding: 15px 0px 15px 4px;
+    margin-left: 70px;
+
+
+}
+.login {
+    padding: 7px 0;
+    background: maroon;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.login a {
+    background:whitesmoke;
+    color: black;
+    display: inline-block;
+    width: 80px;
+    padding: 7px 5px;
+    margin: 5px 35px;
+    font-weight: bold;
+}
+#footer {
+    background: maroon;
+    padding: 8px;
+    color: #fff;
+    font-size: 11px;
+    overflow: hidden;
+    bottom: 0px;
+}

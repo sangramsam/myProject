@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draft Cheque</title>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container" style="width: 700px">
+    <form method="post" action="">
+    <h3 style="text-align: center">Draft Cheque</h3>
+    <table class="table table-bordered">
+        <tr class="alert-success">
+            <td class="text-center">Account No</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="accountno" placeholder="Account No"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">DD or Cheque</td>
+            <td><div class="col-xs-6">
+            <select name="select" class="form-control">
+                <option name="DD">DD</option>
+                <option name="cheque">Cheque</option>
+            </select>
+            </div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">Payable At</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="payable" placeholder="Payable At"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">Drawn On</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="drawn" placeholder="Drawn On"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">Ammount</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="ammount" placeholder="Ammount"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">Area</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="Area" placeholder="Area"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">City</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="City" placeholder="City"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">Pincode</td>
+            <td><div class="col-xs-6">
+                <input type="text" class="form-control"   name="pincode" placeholder="pincode"></div> </td>
+        </tr>
+        <tr class="alert-success">
+            <td class="text-center">Status</td>
+            <td><div class="col-xs-6">
+                <select name="select" class="form-control">
+                    <option name="DD">Urgent</option>
+                    <option name="cheque">Ordinary</option>
+                </select>
+            </div> </td>
+        </tr>
+        <tr >
+            <td><div class="col-xs-6 pull-right"><input type="submit" class="form-control btn-success" name="request" value="Request"></div> </td>
+            <td><div class="col-xs-6"><input type="reset" value="Reset" class="form-control btn-danger" ></div></td>
+        </tr>
+
+    </table>
+    </form>
+</div>
+<script src="bootstrap-3.3.6-dist/js/jquery-2.2.1.min.js"></script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
