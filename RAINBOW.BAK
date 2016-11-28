@@ -1,0 +1,36 @@
+#include<graphics.h>
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+int gd=DETECT, gm=4;
+initgraph(&gd,&gm,"c:\\tc\\bgi");
+setpalette(0,WHITE);
+setcolor(1);
+circle(500,480,400);
+floodfill(500,480,1);
+setcolor(2);
+circle(500,480,380);
+floodfill(500,480,2);
+setcolor(3);
+circle(500,480,360);
+floodfill(500,480,3);
+setcolor(4);
+circle(500,480,340);
+floodfill(500,480,4);
+setcolor(5);
+circle(500,480,320);
+floodfill(550,480,5);
+setcolor(6);
+circle(500,480,300);
+floodfill(500,480,6);
+setcolor(7);
+circle(500,480,280);
+floodfill(550,480,7);
+setcolor(RED);
+settextstyle(TRIPLEX_FONT,HORIZ_DIR,6);
+outtextxy(350,400," RAINBOW ");
+getch();
+restorecrtmode();
+}

@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[5],i,s;
+for(i=0;i<=4;i++)
+{
+printf("enter the value\n");
+scanf("%d",&a[i]);
+}
+printf("wht no u want to search\n");
+scanf("%d",&s);
+for(i=0;i<=4;i++)
+{
+if(a[i]==s)
+{
+printf("no is found\n");
+}
+else
+{
+prinf("no is not available");
+}
+getch();
+}

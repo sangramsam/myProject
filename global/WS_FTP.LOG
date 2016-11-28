@@ -1,0 +1,65 @@
+2003.03.05 01:48 B I:\Motion Capture\global\errorHandling.cpp <-- vlsi-mpi /home/yu-chil/Motion Capture/global errorHandling.cpp
+2003.03.05 01:48 B I:\Motion Capture\global\errorHandling.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global errorHandling.h
+2003.03.05 01:48 B I:\Motion Capture\global\function.cpp <-- vlsi-mpi /home/yu-chil/Motion Capture/global function.cpp
+2003.03.05 01:48 B I:\Motion Capture\global\function.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global function.h
+2003.03.05 01:48 B I:\Motion Capture\global\GenericException.cpp <-- vlsi-mpi /home/yu-chil/Motion Capture/global GenericException.cpp
+2003.03.05 01:48 B I:\Motion Capture\global\GenericException.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global GenericException.h
+2003.03.05 01:48 B I:\Motion Capture\global\globals.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global globals.h
+2003.03.05 01:48 B I:\Motion Capture\global\globals.inl <-- vlsi-mpi /home/yu-chil/Motion Capture/global globals.inl
+2003.03.05 01:48 B I:\Motion Capture\global\libtarga.c <-- vlsi-mpi /home/yu-chil/Motion Capture/global libtarga.c
+2003.03.05 01:48 B I:\Motion Capture\global\libtarga.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global libtarga.h
+2003.03.05 01:48 B I:\Motion Capture\global\ObjectStructures.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global ObjectStructures.h
+2003.03.05 01:48 B I:\Motion Capture\global\typedefs.h <-- vlsi-mpi /home/yu-chil/Motion Capture/global typedefs.h
+2002.03.10 08:40 B E:\Motion Capture\global\errorHandling.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global errorHandling.cpp
+2002.03.10 08:40 B E:\Motion Capture\global\errorHandling.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global errorHandling.h
+2002.03.10 08:40 B E:\Motion Capture\global\function.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global function.cpp
+2002.03.10 08:40 B E:\Motion Capture\global\function.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global function.h
+2002.03.10 08:40 B E:\Motion Capture\global\GenericException.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global GenericException.cpp
+2002.03.10 08:40 B E:\Motion Capture\global\GenericException.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global GenericException.h
+2002.03.10 08:40 B E:\Motion Capture\global\globals.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global globals.h
+2002.03.10 08:40 B E:\Motion Capture\global\globals.inl --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global globals.inl
+2002.03.10 08:40 B E:\Motion Capture\global\libtarga.c --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global libtarga.c
+2002.03.10 08:40 B E:\Motion Capture\global\libtarga.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global libtarga.h
+2002.03.10 08:40 B E:\Motion Capture\global\ObjectStructures.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global ObjectStructures.h
+2002.03.10 08:40 B E:\Motion Capture\global\typedefs.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global typedefs.h
+2002.03.10 08:40 B E:\Motion Capture\global\WS_FTP.LOG --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/Motion Capture/global WS_FTP.LOG
+2003.04.10 22:12 B I:\CS777\LSystem\global\WS_FTP.LOG <-- cae /pong/usr3/y/yu-chil/LSystem/global WS_FTP.LOG
+2003.04.11 02:52 B I:\CS777\StringSystem\global\Defines.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global Defines.h
+2003.04.11 02:52 B I:\CS777\StringSystem\global\errorHandling.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global errorHandling.cpp
+2003.04.11 02:52 B I:\CS777\StringSystem\global\errorHandling.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global errorHandling.h
+2003.04.11 02:52 B I:\CS777\StringSystem\global\function.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global function.cpp
+2003.04.11 02:52 B I:\CS777\StringSystem\global\function.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global function.h
+2003.04.11 02:52 B I:\CS777\StringSystem\global\GenericException.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global GenericException.cpp
+2003.04.11 02:52 B I:\CS777\StringSystem\global\GenericException.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global GenericException.h
+2003.04.11 02:52 B I:\CS777\StringSystem\global\globals.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global globals.h
+2003.04.11 02:52 B I:\CS777\StringSystem\global\globals.inl --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global globals.inl
+2003.04.11 02:52 B I:\CS777\StringSystem\global\libtarga.c --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global libtarga.c
+2003.04.11 02:52 B I:\CS777\StringSystem\global\libtarga.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global libtarga.h
+2003.04.11 02:52 B I:\CS777\StringSystem\global\typedefs.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/StringSystem/global typedefs.h
+2003.04.12 01:37 B J:\TreeDraw\global\WS_FTP.LOG <-- cae /pong/usr3/y/yu-chil/TreeDraw/global WS_FTP.LOG
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\Defines.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global Defines.h
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\errorHandling.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global errorHandling.cpp
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\errorHandling.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global errorHandling.h
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\function.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global function.cpp
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\function.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global function.h
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\GenericException.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global GenericException.cpp
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\GenericException.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global GenericException.h
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\globals.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global globals.h
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\globals.inl --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global globals.inl
+2002.04.17 15:25 B E:\CS777\TreeDraw\global\libtarga.c --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global libtarga.c
+2002.04.17 15:26 B E:\CS777\TreeDraw\global\libtarga.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global libtarga.h
+2002.04.17 15:26 B E:\CS777\TreeDraw\global\typedefs.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global typedefs.h
+2003.04.17 21:37 B I:\CS777\TreeDraw\global\WS_FTP.LOG <-- cae /pong/usr3/y/yu-chil/TreeDraw/global WS_FTP.LOG
+2002.04.20 15:36 B E:\TreeDraw\global\Defines.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global Defines.h
+2002.04.20 15:36 B E:\TreeDraw\global\errorHandling.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global errorHandling.cpp
+2002.04.20 15:36 B E:\TreeDraw\global\errorHandling.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global errorHandling.h
+2002.04.20 15:36 B E:\TreeDraw\global\function.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global function.cpp
+2002.04.20 15:36 B E:\TreeDraw\global\function.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global function.h
+2002.04.20 15:36 B E:\TreeDraw\global\GenericException.cpp --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global GenericException.cpp
+2002.04.20 15:36 B E:\TreeDraw\global\GenericException.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global GenericException.h
+2002.04.20 15:36 B E:\TreeDraw\global\globals.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global globals.h
+2002.04.20 15:36 B E:\TreeDraw\global\globals.inl --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global globals.inl
+2002.04.20 15:36 B E:\TreeDraw\global\libtarga.c --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global libtarga.c
+2002.04.20 15:36 B E:\TreeDraw\global\libtarga.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global libtarga.h
+2002.04.20 15:36 B E:\TreeDraw\global\typedefs.h --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global typedefs.h
+2002.04.20 15:36 B E:\TreeDraw\global\WS_FTP.LOG --> ftp.cae.wisc.edu /pong/usr3/y/yu-chil/TreeDraw/global WS_FTP.LOG

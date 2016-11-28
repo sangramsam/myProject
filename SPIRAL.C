@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+#include<dos.h>
+void main()
+{
+int gdriver=DETECT,gmode=0;
+initgraph(&gdriver,&gmode,"c:\\turboc3\\bgi");
+arc(190,180,90,270,70);
+arc(190,190,270,90,60);
+arc(200,180,90,270,50);
+arc(200,190,270,90,40);
+arc(210,180,90,270,30);
+arc(210,190,270,90,20);
+arc(215,180,90,345,10);
+getch();
+}
+

@@ -1,0 +1,24 @@
+#include<graphics.h>
+#include<conio.h>
+void main()
+{
+int gd,gm;
+gd=DETECT;
+gm=4;
+initgraph(&gd,&gm,"c:\\turboc3\\bgi");
+setcolor(3);
+line(200,200,400,200);
+line(200,200,200,100);
+line(400,200,400,300);
+line(300,100,300,300);
+line(300,100,400,100);
+line(300,300,200,300);
+putpixel(250,150,RED);
+putpixel(350,150,RED);
+putpixel(350,250,RED);
+putpixel(250,250,RED);
+getch();
+}
+
+
+

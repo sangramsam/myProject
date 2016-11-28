@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char snh[]="sangramsnh";
+int i;
+for(i=0;ch[i]='\0',i++)
+{
+ch[i]=ch[i]-32;
+}
+printf("%s",ch);
+}

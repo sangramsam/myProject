@@ -1,0 +1,43 @@
+#include<graphics.h>
+#include<dos.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<time.h>
+#define OFFSET 40
+int maxx, maxy;
+void fly_kite();
+int main()
+{
+int gd,gm;
+detectgraph(&gd,&gm);
+initgraph(&gd,&gm,"c:\\turboc3\\bgi");
+maxx=getmaxx();
+maxy=getmaxy();
+fly_kite();
+closegraph();
+return 0;
+}
+void fly_kite()
+{
+int midx=100;
+int midy=100;
+while(!kbhit())
+{
+setbkcolor(BLUE);
+midx=random(maxx);
+midy=random(maxy);
+line(midx-OFFSET,midy,midx,midy-OFFSET);
+line(midx+OFFSET,midy,midx,midy-OFFSET);
+line(midx-OFFSET,midy,midx,midy+OFFSET);
+line(midx+OFFSET,midy,midx,midy+OFFSET);
+setfillstyle(SOLID_FILL,RED);
+floodfill(midx,midy,WHITE);
+line(midx-OFFSET,midy,midx+OFFSET,midy);
+line(midx,midy-OFFSET,midx,midy+OFFSET);
+line(midx,midy+OFFSET,midx+50,midy+OFFSET+200);
+delay(1000);
+getch();
+cleardevice();
+}
+}
+

@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3];
+//int b[3][3];
+int i,j;
+//int c[3][3];
+printf("plz insert the values of matrix a\n");
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+scanf("%d",*(a+i)+j);
+}
+}
+printf("read");
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("%d",*(*(a+i)+j));
+}
+}
+
+getch();
+}

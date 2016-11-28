@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+struct emp
+{
+int empid;
+char ename[12];
+int salary;
+int dob;
+char address[18];
+};
+void main()
+{
+struct emp e;
+printf("enter the employid\n");
+scanf("%d",&e.empid);
+printf("enter employ name\n");
+scanf("%s",e.ename);
+printf("enter the salary\n");
+scanf("%d",&e.salary);
+printf("enter the dob\n");
+scanf("%d",&e.dob);
+printf("enter the address of employ\n");
+scanf("%s",e.address);
+printf("data inserted\n");
+printf("enter empid you want to search\n");
+scanf("%d",&n)
+getch();
+}

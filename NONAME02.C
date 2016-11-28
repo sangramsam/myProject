@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+const int *p;
+int a=90,b=100;
+p=&a;
+printf("%d\n",*p);
+//*p=500;
+printf("%d\n",*p);
+a=67;
+printf("%d %d \n");
+p=&b;
+printf("%d\n",*p);
+b=65;
+printf("%d \n",*p);
+getch();
+}

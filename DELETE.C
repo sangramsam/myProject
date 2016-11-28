@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[7]={1,2,3,5,12,5,9};
+int k,i,flag=0,x;
+clrscr();
+for(i=0;i<7;i++)
+{
+printf("%d\t",a[i]);
+}
+printf("\n");
+printf("whts no u wnt do delete\n");
+scanf("%d",&x);
+for(i=0;i<7;i++)
+{
+if(a[i]==x)
+{
+flag=1;
+break;
+}
+}
+if(flag==1)
+{
+for(k=i;k<6;k++)
+{
+a[k]=a[k+1];
+}
+}
+else
+{
+printf("the vlaue is nt found\n");
+}
+for(i=0;i<6;i++)
+{
+printf("%d\t",a[i]);
+}
+getch();
+}

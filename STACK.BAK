@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+int top=-1,n,i;
+int arr[5];
+clrscr();
+do
+{
+printf("no u want to insert\n");
+scanf("%d",&n);
+top++;
+arr[top]=n;
+}
+while(top<5);
+printf("data inserted");
+for(i=top;i>=0;i--)
+{
+printf("%d=display no.\n",arr[i]);
+}
+n=arr[top];
+top=top-1;
+printf("item is deleted=%d\n",n);
+getch();
+}
+
+

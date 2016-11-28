@@ -1,0 +1,91 @@
+#include<dos.h>
+#include<conio.h>
+#include<graphics.h>
+#include<alloc.h>
+#include<math.h>
+
+void main()
+{
+ int gd =DETECT, gm;
+ int poly[8],poly1[10];
+ int maxx, maxy, area, x;
+ float x1;
+ char *buff;
+
+ initgraph(&gd,&gm,"c:\\turboc3\\bgi");
+ maxx=getmaxx();
+ maxy = getmaxy();
+// setbkcolor(5);
+
+ area = imagesize(0,0,165,205);
+ buff= (char*)malloc ( area );
+ getimage(0,0,165,205,buff);
+
+ setcolor(2);
+ rectangle(0,maxy-9,maxx,maxy);
+ setfillstyle(1,2);
+ floodfill(2,maxy-8,2);
+for(x=0,x1=0;x<maxx-165;x++,x1+=0.1)
+{
+ putimage(x,maxy-215,buff,0);
+ setcolor(1);
+ setlinestyle(0,0,2);
+ circle(x+31,maxy-41,30);
+ circle(x+131,maxy-41,30);			       //color
+ circle(x+31,maxy-41,10);
+ circle(x+131,maxy-41,10);
+
+ setfillstyle(1,4);
+ floodfill(x+10,maxy-25,1);
+ floodfill(x+111,maxy-25,1);
+// delay(10);
+ setlinestyle(0,0,2);
+ setcolor(1);
+ circle(x+81,maxy-41,15);
+ line(x+81,maxy-56,x+31,maxy-51);
+ line(x+81,maxy-26,x+31,maxy-31);
+ setfillstyle(1,1);
+ floodfill(x+31,maxy-35,1);
+ floodfill(x+81,maxy-35,1);
+ floodfill(x+81,maxy-43,1);
+
+ setlinestyle(0,0,3);
+ poly[0]=x+81;
+ poly[1]=maxy-41;
+ poly[2]=x+40;
+ poly[3]=maxy-86;
+ poly[4]=x+122;
+ poly[5]=maxy-86;
+ poly[6]=x+81;
+ poly[7]=maxy-41;
+ drawpoly(4,poly);
+ line(x+131,maxy-41,x+122,maxy-86);
+ line(x+31,maxy-41,x+40,maxy-86);
+ line(x+122,maxy-86,x+122,maxy-100);
+ line(x+40,maxy-86,x+40,maxy-91);
+ ellipse(x+115,maxy-100,270,0,10,5);
+ setcolor(4);
+ setfillstyle(0,4);
+ poly1[0]=x+35;
+ poly1[1]=maxy-88;
+ poly1[2]=x+35;
+ poly1[3]=maxy-94;
+ poly1[4]=x+55;
+ poly1[5]=maxy-94;
+ poly1[6]=x+55;
+ poly1[7]=maxy-91;
+ poly1[8]=x+35;
+ poly1[9]=maxy-88;
+ drawpoly(5,poly1);
+ setfillstyle(1,4);
+ floodfill(x+40,maxy-92,4);
+ setcolor(14);
+ setlinestyle(0,0,3);
+ line(x+80,maxy-41,(x+80)+20*cos(x1),(maxy-41)+20*sin(x1));
+ line((x+81)-16*cos(x1),(maxy-41)-16*sin(x1),(x+81)-20*cos(x1),(maxy-41)-20*sin(x1));
+ delay(50);
+}
+ getch();
+ closegraph();
+ restorecrtmode();
+}

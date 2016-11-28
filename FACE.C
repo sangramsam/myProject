@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+{
+int gdriver=DETECT,gmode=0;
+int I;
+initgraph(&gdriver,&gmode,"c:\\turboc3\\bgi");
+cleardevice();
+rectangle(0,0,639,479);
+outtextxy(280,20,"HUMAN FACE");
+
+arc(320,230,190,180,120);
+line(210,190,430,190);
+arc(320,230,160,380,120);
+arc(440,230,270,450,20);
+arc(200,230,90,270,20);
+circle(260,220,10);
+circle(380,220,10);
+for(I=0;I<2;I++)
+{
+arc(260,213+I,30,150,13);
+arc(380,213+I,30,150,13);
+}
+line(320,240,302,280);
+arc(320,270,210,330,20);
+arc(320,290,210,330,30);
+line(215,290,100,350);
+line(100,350,90,440);
+line(425,290,540,350);
+line(540,350,550,440);
+line(320,350,320,440);
+getch();
+}
+
